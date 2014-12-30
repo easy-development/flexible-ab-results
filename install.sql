@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS flexible_ab_results_campaign (
+  id INT NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(500) NOT NULL ,
+  page_id INT NOT NULL DEFAULT 0,
+  is_persistent INT NOT NULL DEFAULT 0,
+  `type` INT NOT NULL DEFAULT 0,
+  PRIMARY KEY (id))
+  CHARACTER SET utf8 COLLATE utf8_general_ci
+ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS flexible_ab_results_campaign_option (
+  id INT NOT NULL AUTO_INCREMENT ,
+  campaign_id INT NOT NULL DEFAULT 0,
+  link VARCHAR(500) NOT NULL DEFAULT '',
+  density INT NOT NULL DEFAULT 0 ,
+  is_active iNT NOT NULL DEFAULT 0,
+  PRIMARY KEY (id))
+  CHARACTER SET utf8 COLLATE utf8_general_ci
+ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS flexible_ab_results_campaign_option_display (
+  id INT NOT NULL AUTO_INCREMENT ,
+  campaign_id INT NOT NULL DEFAULT 0,
+  link VARCHAR(500) NOT NULL DEFAULT '',
+  ip_address VARCHAR(100) NOT NULL DEFAULT '',
+  server_date TIMESTAMP NOT NULL DEFAULT '0000-00-00 00:00:00',
+  creation_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
+  PRIMARY KEY (id))
+ENGINE = InnoDB;

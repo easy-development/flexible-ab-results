@@ -1,0 +1,414 @@
+.update-nag {
+  display: none;
+}
+.bootstrap_environment a,
+.bootstrap_environment input {
+  outline: none !important;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.bootstrap_environment a:focus,
+.bootstrap_environment input:focus {
+  border-color: #188dc4;
+}
+.bootstrap_environment a:active,
+.bootstrap_environment input:active {
+  box-shadow: 0 0 10px 0 #188dc4;
+}
+.bootstrap_environment .btn {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.bootstrap_environment .btn.btn-primary,
+.bootstrap_environment .btn.btn-success,
+.bootstrap_environment .btn.btn-danger,
+.bootstrap_environment .btn.btn-warning {
+  box-shadow: none;
+  padding: 7px 20px;
+  border-radius: 3px;
+  border-color: transparent;
+}
+
+.bootstrap_environment {
+  padding-right: 20px;
+}
+.bootstrap_environment .navbar.navbar-inverse {
+  z-index: 1;
+  border-radius: 0 0 10px 10px;
+}
+.bootstrap_environment .table-striped {
+  border: 1px solid #dddddd;
+}
+.bootstrap_environment .table-striped > thead {
+  background: rgb(223, 223, 223);
+}
+.bootstrap_environment .table-striped > thead > tr > td {
+  font-weight: 900;
+}
+.bootstrap_environment .table-striped > tbody > tr > td {
+  line-height: 33px;
+}
+
+.bootstrap_environment  #filterEntries {
+  padding: 7px 10px !important;
+}
+
+.bootstrap_environment #motion-countdown-container .tab-content {
+  background: #FFFFFF;
+  margin-bottom: 20px;
+  padding: 15px 0 15px 0;
+  border: 1px solid #dddddd;
+  border-top: none;
+}
+.bootstrap_environment #motion-countdown-container .alert {
+  margin: 0;
+}
+
+input[type=text].wp-color-picker {
+  width: 65px !important;
+}
+
+
+.bootstrap_environment .div .text-primary {
+  color: #188dc4;
+  margin-bottom: 20px;
+}
+.bootstrap_environment  .div h4 {
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+.bootstrap_environment .div .well {
+  background: #FFFFFF;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.bootstrap_environment .div .well:hover{
+  border-color: #888787;
+}
+
+.bootstrap_environment .control-label {
+  line-height:18px;
+}
+
+@media screen and (max-width: 782px) {
+  .bootstrap_environment {
+    padding-right: 10px;
+  }
+}
+
+.bootstrap_environment .right {
+  float : right;
+}
+
+.bootstrap_environment .left {
+  float:left;
+}
+
+.bootstrap_environment .code-example {
+  width:100%;
+  height:120px;
+  resize: none;
+}
+
+.bootstrap_environment input.code-example {
+  height:30px;
+}
+
+.bootstrap_environment .navbar {
+  background    : #69c261;
+  padding       : 20px;
+  border        : 0;
+  border-radius : 0 0 3px 3px;
+}
+
+.bootstrap_environment .navbar .nav {
+  float : right;
+}
+
+.bootstrap_environment .navbar .nav > li {
+  margin-top   : 21px;
+  margin-right : 5px;
+}
+
+.bootstrap_environment .navbar .nav > li > a,
+.bootstrap_environment .navbar .nav > li > a:focus {
+  background    : #484f5a;
+  color         : #ffffff;
+  padding       : 10px 20px;
+  border-radius : 3px;
+}
+
+.bootstrap_environment .navbar .nav > li.active > a:hover,
+.bootstrap_environment .navbar .nav > li > a:hover {
+  background : #25292f;
+  color      : #ffffff;
+}
+
+.bootstrap_environment .navbar .nav > li.active > a {
+  background : #353a42;
+  color      : #ffffff;
+}
+
+.bootstrap_environment .btn.btn-primary,
+.bootstrap_environment .btn.btn-success,
+.bootstrap_environment .btn.btn-danger,
+.bootstrap_environment .btn.btn-warning {
+  border-radius : 3px;
+  padding       : 7px 30px;
+  font-weight   : 300;
+}
+
+.bootstrap_environment .btn.btn-primary {
+  background : #188dc4;
+}
+
+.bootstrap_environment .btn.btn-primary:hover {
+  background : #2e99cc;
+}
+
+.bootstrap_environment .btn.btn-success {
+  background : #5ba943;
+}
+
+.bootstrap_environment .btn.btn-success:hover {
+  background : #65b34d;
+}
+
+.bootstrap_environment .btn.btn-danger {
+  background : #ee5544;
+}
+
+.bootstrap_environment .btn.btn-danger:hover {
+  background : #f36252;
+}
+
+.bootstrap_environment .btn.btn-warning {
+  background : #ef8844;
+}
+
+.bootstrap_environment .btn.btn-warning:hover {
+  background : #f29354;
+}
+
+.bootstrap_environment h2 {
+  color          : #353a42;
+  font-weight    : 300;
+  font-size      : 1.6em;
+  border-bottom  : 1px solid #dedede;
+  padding-bottom : 10px;
+}
+
+.bootstrap_environment h2 > span.note {
+  font-size      : 14px;
+}
+
+.bootstrap_environment h3 {
+  color       : #183152;
+  font-weight : 300;
+}
+
+.bootstrap_environment label {
+  color       : #183152;
+  font-weight : 300;
+  font-size   : 15px;
+}
+
+.bootstrap_environment hr {
+  border-color: #373737;
+}
+
+.bootstrap_environment input[type="text"],
+.bootstrap_environment input[type="email"],
+.bootstrap_environment select,
+.bootstrap_environment .form-control,
+.bootstrap_environment textarea {
+  background    : #f1f1f1;
+  border        : 1px solid #e6e6e6;
+  border-radius : 3px;
+  color         : #8f8f8f;
+  font-weight   : 300;
+}
+
+.bootstrap_environment input[type="text"]:focus,
+.bootstrap_environment input[type="email"]:focus,
+.bootstrap_environment select:focus,
+.bootstrap_environment .form-control:focus,
+.bootstrap_environment textarea {
+  box-shadow   :none !important;
+  background   : #FFFFFF;
+  border       : 1px solid #6fc252;
+}
+
+.bootstrap_environment .pager a.next,
+.bootstrap_environment .pager a.prev,
+.bootstrap_environment .pager a.finish,
+.bootstrap_environment .pager a.save {
+  border-radius : 3px;
+  padding       : 6px 25px;
+  color         : #FFFFFF;
+  border        : 0;
+  display       : block;
+  cursor        : pointer;
+}
+
+.bootstrap_environment .badge {
+  border-radius : 120px;
+  margin-right  : 5px;
+  background    : #585858;
+  color         : #1D1C1C;
+  font-size     : 11px;
+  min-width     : 15px;
+}
+
+.bootstrap_environment table {
+  background    : #FFFFFF;
+  border        : 0 !important;
+  border-radius : 3px;
+}
+
+.bootstrap_environment .table-striped td,
+.bootstrap_environment .table-striped th {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+
+.bootstrap_environment .table-striped > thead {
+  background : #525965;
+  color      : #ffffff;
+}
+
+.bootstrap_environment .table-striped > thead > tr > th,
+.bootstrap_environment .table-striped > thead > tr > td {
+  color       : #ffffff;
+  padding     : 12px;
+  font-weight : 300;
+}
+
+.bootstrap_environment .table-striped > tbody > tr > td,
+.bootstrap_environment .table-striped > tbody > tr > th {
+  color       : #25292f;
+  padding     : 8px 12px;
+  font-weight : 300;
+}
+
+.bootstrap_environment .table-striped > tbody > tr:nth-child(2n+1) > td,
+.bootstrap_environment .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background : #f2f2f2;
+}
+
+.bootstrap_environment .table-striped > tbody .btn {
+  margin: 0 8px 0 0;
+}
+
+.bootstrap_environment .table-striped > tbody .btn.btn-danger {
+  margin: 0;
+}
+
+.bootstrap_environment table input[type="text"],
+.bootstrap_environment table input[type="email"],
+.bootstrap_environment table select,
+.bootstrap_environment table .form-control,
+.bootstrap_environment table textarea {
+  border-radius : 0;
+  padding       : 1px 10px;
+  font-size     : 1em;
+  width         : 100%;
+}
+
+.bootstrap_environment .nav-tabs {
+  border-bottom: 1px solid #d8def5;
+}
+
+.bootstrap_environment .nav-tabs > li > a,
+.bootstrap_environment .nav-tabs > li > a:hover,
+.bootstrap_environment .nav-tabs > li > a:focus {
+  color       : #3f6893;
+  font-weight : 300;
+}
+
+.bootstrap_environment .nav-tabs > li > a:hover,
+.bootstrap_environment .nav-tabs > li > a:focus {
+  border-radius : 0;
+  background    : #3f6893;
+  box-shadow    : none;
+  color         : #f2f2f2;
+  border              : 1px solid #d8def5;
+  border-bottom-color : transparent;
+}
+
+.bootstrap_environment .nav-tabs > li.active > a,
+.bootstrap_environment .nav-tabs > li.active > a:hover,
+.bootstrap_environment .nav-tabs > li.active > a:focus {
+  background    : #2a4b6e;
+  border-radius : 0;
+  color         : #f2f2f2;
+  font-weight   : 300;
+  border              : 1px solid #d8def5;
+  border-bottom-color : transparent;
+}
+
+.bootstrap_environment .statistics-map span {
+  padding:4px 10px;
+  color:#FFFFFF;
+}
+
+.bootstrap_environment .alert-success {
+  color            : #FFFFFF;
+  background-color : #5ba943;
+  border-color     : #65b34d;
+}
+.bootstrap_environment .alert-info {
+  color            : #FFFFFF;
+  background-color : #188dc4;
+  border-color     : #29b2e8;
+}
+.bootstrap_environment .alert-warning {
+  color            : #FFFFFF;
+  background-color : #ef8844;
+  border-color     : #f29354;
+}
+.bootstrap_environment .alert-danger {
+  color            : #FFFFFF;
+  background-color : #ee5544;
+  border-color     : #f36252;
+}
+
+.bootstrap_environment table .btn.btn-primary,
+.bootstrap_environment table .btn.btn-success,
+.bootstrap_environment table .btn.btn-danger,
+.bootstrap_environment table .btn.btn-warning {
+  padding       : 8px 10px;
+  border-radius : 3px;
+  background    : #616873;
+}
+
+[data-hint] {
+  z-index         : 99999;
+  padding-bottom  : 1px;
+  text-decoration : underline;
+}
+
+[data-hint].hint--error:after {
+  background : #b34e4d;
+}
+
+[data-hint]:after {
+  background : #353a42;
+}
+
+.btn-copy {
+  padding    : 5px;
+  background : #375D81;
+  cursor     : pointer;
+  color      : #FFFFFF;
+}
+
+.bootstrap_environment #new-line-container .btn {
+  width : 80px;
+}
