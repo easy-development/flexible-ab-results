@@ -131,6 +131,7 @@ class FlexibleABResultsController {
 
     wp_enqueue_style( 'hint.css', plugins_url('assets/hint.css', __FILE__ ));
 
+    wp_enqueue_script('jquery');
     wp_enqueue_script(
         'bootstrap',
         plugins_url('assets/bootstrap.min.js', __FILE__ ),
