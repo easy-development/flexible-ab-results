@@ -16,7 +16,7 @@
 <iframe id="iframe" src="<?php echo $deliveryTarget?>"></iframe>
 <div id="timer-container"></div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="<?php echo FlexibleABResultsController::getInstance()->pluginURLPath;?>assets/jquery.js"></script>
 <script type="text/javascript">
   var CampaignIframePage = {
 
