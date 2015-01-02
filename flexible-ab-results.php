@@ -113,7 +113,9 @@ class FlexibleABResultsController {
     echo '<div class="bootstrap_environment">';
     require_once('views/_header.php');
 
-    if(isset($_GET['sub-page']) && $_GET['sub-page'] == 'add-new')
+    if(isset($_GET['sub-page']) && $_GET['sub-page'] == 'help')
+      require('views/help.php');
+    else if(isset($_GET['sub-page']) && $_GET['sub-page'] == 'add-new')
       require('views/admin_campaign_add.php');
     else if(isset($_GET['sub-page']) && $_GET['sub-page'] == 'edit')
       require('views/admin_campaign_edit.php');

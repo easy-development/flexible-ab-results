@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: easydevelopment
-Donate link: http://example.com/
+Donate link: http://easy-developemnt.com
 Tags: a,b, testing, flexible, external, link, page, internal, page, test, split, split testing
 Requires at least: 3.3
 Tested up to: 4.1
@@ -31,11 +31,11 @@ Yes it does, it's made to work out of the box, flexible, and easily.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. screenshot-1.png
+2. screenshot-2.png
+3. screenshot-3.png
+4. screenshot-4.png
+5. screenshot-5.png
 
 == Upgrade Notice ==
 

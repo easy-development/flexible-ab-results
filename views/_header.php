@@ -23,6 +23,11 @@
           <?php echo __('Add New Campaign')?>
         </a>
       </li>
+      <li style="margin-bottom: 0" class="<?php echo (isset($_GET['sub-page']) && $_GET['sub-page'] == 'help') ? 'active' : ''?>">
+        <a href="?page=<?php echo FlexibleABResultsController::getInstance()->pluginSlug;?>&sub-page=help">
+          <?php echo __('Help')?>
+        </a>
+      </li>
     </ul>
   </div>
 </div>
